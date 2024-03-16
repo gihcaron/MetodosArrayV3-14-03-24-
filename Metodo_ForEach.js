@@ -15,8 +15,13 @@ const numbers = [4, 8, 28, 32];
 
 numbers.forEach((numbers, index) => {
     console.log(" O Numero é " + numbers + " e está na posição " + index);
-
+    
 });
+
+//Saida Esperada: O Numero é 4 e está na posição 0
+    //O Numero é 8 e está na posição 1
+    // O Numero é 28 e está na posição 2
+    //O Numero é 32 e está na posição 3
 
 //Exemplo 2 - ForEach: Como posso aplicar o ForEach na prática?
 // Tenho uma lista de alunos e quero saber somente quem são os maiores de idade 
