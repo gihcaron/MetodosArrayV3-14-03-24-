@@ -8,11 +8,19 @@
 
 //Insira ou determine o valor desejado
 
-let numbers = 1 ;
+let numbers = 1;
 
 //Exiba se o Array realmente é um Array ou não 
-console.log (Array.isArray(numbers));
+console.log(Array.isArray(numbers));
 
-//Resultado esperado: False 
+//Resultado esperado: False
 
 // Exemplo 2 ------------------------------------
+
+//Insira ou determine o valor desejado
+const animals = ["Gato", "Cachorro", "Rato", "Coelho",];
+
+//Exiba se o Array realmente é um Array ou não
+console.log(Array.isArray(animals));
+
+//Resultado esperado: True
