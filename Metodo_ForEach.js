@@ -37,7 +37,7 @@ const alunos = [
 
 alunos.forEach(function (item, index) {
     if (item.idade >= 18) {
-        console.log('O aluno(a), ' + item.nome + '  posição ' + index + ' da turma ' + item.turma + ' é maior de idade')
+        console.log('O aluno(a), ' + item.nome + '  posição ' + index + ' da turma ' + item.turma + ' é maior de idade');
 
     }
 });
