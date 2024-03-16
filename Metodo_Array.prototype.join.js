@@ -29,4 +29,4 @@ let letras = ['G', 'I', 'O', 'V', 'A', 'N', 'N', 'A'];
 
 console.log(letras.join('-'));
 
-// Saída esperada: "GIOVANNA"
+// Saída esperada: G-I-O-V-A-N-N-A
