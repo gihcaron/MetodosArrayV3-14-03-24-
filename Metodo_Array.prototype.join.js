@@ -18,3 +18,13 @@ console.log(names.join());
 // Saída esperada: Maria Flor,Raissa,Theo,Carla
 
 //Exemplo 2 -------------------------------
+// Declare a array desejada 
+
+let letras = ['G', 'I', 'O', 'V', 'A', 'N', 'N', 'A']; 
+
+// Determinar de qual forma ela irão se "unir"
+// // Exibir as letras agrupadas
+
+console.log(letras.join(''));
+
+// Saída esperada: "GIOVANNA"
