@@ -13,8 +13,8 @@ const numbers = [4, 8, 28, 32];
 //Para cada núemro e index
 //Exibir "O Numero é X e está na posição index"
 
- numbers.forEach((numbers, index) => {
-  console.log(" O Numero é " + numbers + " e está na posição " + index);
+numbers.forEach((numbers, index) => {
+    console.log(" O Numero é " + numbers + " e está na posição " + index);
 
 });
 
@@ -35,11 +35,11 @@ const alunos = [
 // Verificar se ele é maior de idade
 //Se for, exibir "O aluno, x  posição index da turma x é maior de idade" 
 
-alunos.forEach(function (item, index){
-    if(item.idade >= 18){
-    console.log('O aluno(a), ' + item.nome + '  posição ' + index + ' da turma ' + item.turma + ' é maior de idade')
-    
-}
+alunos.forEach(function (item, index) {
+    if (item.idade >= 18) {
+        console.log('O aluno(a), ' + item.nome + '  posição ' + index + ' da turma ' + item.turma + ' é maior de idade')
+
+    }
 });
 
 
