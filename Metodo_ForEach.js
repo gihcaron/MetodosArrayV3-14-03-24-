@@ -47,4 +47,7 @@ alunos.forEach(function (item, index) {
     }
 });
 
+// Saida Esperada: 
+// O aluno(a), Luan Santana  posição 1 da turma M5B é maior de idade
+//O aluno(a), Lady Gaga  posição 2 da turma 3TEE é maior de idade
 
