@@ -18,7 +18,7 @@ console.log(Array.isArray(numbers));
 // Exemplo 2 ------------------------------------
 
 //Insira ou determine o valor desejado
-const animals = ["Gato", "Cachorro", "Rato", "Coelho",];
+let animals = ["Gato", "Cachorro", "Rato", "Coelho",];
 
 //Exiba se o Array realmente é um Array ou não
 console.log(Array.isArray(animals));
