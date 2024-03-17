@@ -12,7 +12,12 @@ const nome = 'Giovanna';
 //Exiba o nome transformado em uma Array
 console.log(Array.from(nome));
 
-//Saída Esperada: [ 'G', 'i', 'o', 'v', 'a,' 'n', 'n', 'a' ] 
+//Saída Esperada: [ 'G', 'i', 'o', 'v', 'a,' 'n', 'n', 'a' ]
 
 
 // Exemplo 2 ----------------------------------------------
+
+//Declarar uma string de números
+const str = (28042008);
+
+console.log(arry.from(str));
