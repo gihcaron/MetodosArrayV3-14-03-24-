@@ -23,11 +23,20 @@ console.log(animais);
 
 //Exemplo 2 ------------------------------------------------
 
+//Declarar a um array para ListaDeNomes
+
 let ListaDeNomes = ['Ana Clara', 'Beatriz', 'Carlos', 'Debora', 'Eduarda'];
 
-ListaDeNomes.splice( 0, 1, 'Ana Beatriz');
+//Neste cenário, tenho essa lista de nomes e inseri o nome errado
+// O nome "Ana Clara" deveria ser "Ana Beatriz"
+//Nesse contexto, removo a partir da posição 0 a posição 1, a Anna Clara, e adiciono a partir da Posição 0 o nome "Ana Beatriz" 
 
+ListaDeNomes.splice(0, 1, 'Ana Beatriz');
+
+//Exibo a nova lista de nomes com as novas alterações
 console.log(ListaDeNomes);
+
+// Saída esperada: 'Ana Beatriz', 'Beatriz', 'Carlos', 'Debora', 'Eduarda'
 
 
 
