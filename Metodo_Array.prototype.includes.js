@@ -8,7 +8,7 @@
 // Exemplo 1 ------------------------------------------
 
 // Determinar constante de cores 
-const cores = ['Amarelo', 'Azul', 'Verde', 'Rosa'];
+let cores = ['Amarelo', 'Azul', 'Verde', 'Rosa'];
 
 // Exibir e determinar (se é falso ou verdadeiro) se inclue a cor "Ciano" na lista 
 console.log(cores.includes("Ciano"));
@@ -18,7 +18,7 @@ console.log(cores.includes("Ciano"));
 // Exemplo 2 -------------------------------------
 
 // Determinar e declarar a constate alunos 
-const alunos = [
+let alunos = [
     { nome: "Beyonce", idade: "15", turma: "1TDS1" },
     { nome: "Luan Santana", idade: "18", turma: "M5B" },
     { nome: "Lady Gaga", idade: "19", turma: "3TEE" },
@@ -28,7 +28,7 @@ const alunos = [
 
 // Criar uma constate ("filteredUsers") que receberia essas pessoas filtrando se elas incluem um "on" em seu nome
 //Exibir os nomes com "on" 
-const filteredUsers = alunos.filter(a => a.nome.includes("on"));
+let filteredUsers = alunos.filter(a => a.nome.includes("on"));
 console.log(filteredUsers);
 
 // Saída esperada: { nome: 'Beyonce', idade: '15', turma: '1TDS1' },
