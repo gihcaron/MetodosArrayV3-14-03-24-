@@ -15,4 +15,14 @@ MelhoresChocolates.pop();
 // Exibir novamente a constante sem o último elemento
 console.log(MelhoresChocolates);
 
+// Saída Esperada: [ 'Batom Garoto', 'Caribe', 'Alpino', 'Prestigio' ]
+
 // Exemplo 2 ------------------------------
+// Definir constatne (Membros da Ilha)
+const MembrosdaIlha = ["Giovanna", "Kevin", "Julia", "Evelyn", "Luiz"]; 
+
+MembrosdaIlha.pop(); 
+
+console.log(MembrosdaIlha);
+
+// Saída esperada: [ 'Giovanna', 'Kevin', 'Julia', 'Evelyn' ]
