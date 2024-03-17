@@ -2,11 +2,12 @@
 
 // Utilidade: Cria uma nova String de uma Array cancatenando todos os elementos dessa mesma Array.  
 
-// Sitaxe: Array.prototype.join()
+// Sitaxe: join()
 
 // Exemplo 1 -------------------------------
 
 // Declare a array desejada a cancatenar
+
 const names = ["Maria Flor", "Raissa", "Theo", "Carla"];
 
 // Determinar de qual forma ela irão se "unir"
