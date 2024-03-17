@@ -19,3 +19,13 @@ let resultado = ListaDeNumeros.flat(5);
 console.log(resultado); 
 
 //Saida esperada: [ 1, 2, 3, 4, 5, 6 ]
+
+
+// Exemplo 2 ----------------------------------------
+
+let data = [01, [10, [2012]  ] ];
+
+let res = data.flat(Infinity);
+
+console.log(res);
+
