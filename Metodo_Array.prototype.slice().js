@@ -8,7 +8,7 @@
 
 //Iniciar array de Animais
 
-let animais = ['Peixe', 'Foca', "Leão", 'Tubarão','Cobra'];
+let animais = ['Peixe', 'Foca', "Leão", 'Tubarão', 'Cobra'];
 
 // Remover a "Foca" na posição 1 e adiconar "Gato" e "Cachorro" na Array
 
@@ -21,6 +21,15 @@ console.log(animais);
 
 
 
-//Exemplo 2 --------------------------------------------------
+//Exemplo 2 ------------------------------------------------
+
+let ListaDeNomes = ['Ana Clara', 'Beatriz', 'Carlos', 'Debora', 'Eduarda'];
+
+ListaDeNomes.splice( 0, 1, 'Ana Beatriz');
+
+console.log(ListaDeNomes);
+
+
+
 
 
