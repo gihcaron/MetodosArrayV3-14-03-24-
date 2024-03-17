@@ -8,7 +8,7 @@
 
 // Declare a array desejada a cancatenar
 
-const names = ["Maria Flor", "Raissa", "Theo", "Carla"];
+let names = ["Maria Flor", "Raissa", "Theo", "Carla"];
 
 // Determinar de qual forma ela irão se "unir"
 // Forma definida = Através de ","
