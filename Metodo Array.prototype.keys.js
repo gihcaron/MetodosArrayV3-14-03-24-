@@ -10,18 +10,44 @@
 const NumerosDaArray = [28, 4, 2008, 2, 8];
 
 // Declarar o iterador de Array com os Numeros da Array
-const interator = NumerosDaArray.keys(); 
+const interator = NumerosDaArray.keys();
 
 // Exibir os indices correspondentes no Array
 for (const key of interator) {
     console.log(key);
-  }
+}
 
-  //Saída Esperada: 0
+//Saída Esperada: 0
 //1
 //2
 //3
 //4
+
+// Exemplo 2 ----------------------------------
+
+// Declarar uma constante Array (Alunos) 
+const alunos = [
+    { Aluno: "João Vitor" },
+    { Aluno: "Flavia" },
+    { Aluno: "Julia" },
+    { Aluno: "Arthur" },
+    { Aluno: "Luiza" },
+];
+
+// Declarar o iterador de Array com os Numeros da Array
+const interator = alunos.keys();
+
+// Exibir os indices correspondentes no Array
+for (const key of interator) {
+    console.log(key);
+}
+
+// Saída esperada: 0
+//1
+//2
+//3
+//4
+
 
 
 
